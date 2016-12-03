@@ -1,0 +1,11 @@
+{
+  "name": "code-design-patterns",
+  "version": "0.0.0",
+  "description": "Patterns I find useful and forget often.",
+  "scripts": {
+    "test": "mocha $(find . -name 'test.js' | grep './node_modules' -v)"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
